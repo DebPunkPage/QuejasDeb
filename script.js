@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function fetchQuejas() {
-    const url = "https://quejas-f969f-default-rtdb.firebaseio.com/Quejas.json";
+    const url = "https://quejas-a5f11-default-rtdb.firebaseio.com/Quejas.json";
 
     fetch(url)
         .then(response => response.json())
