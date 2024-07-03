@@ -38,10 +38,24 @@ body {
 
 h1 {
     font-size: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: #b0bec5; /* Gris claro */
     text-shadow: 2px 2px 4px #000000; /* Sombra del texto */
-    font-family: 'Cinzel', serif;
+}
+
+.info {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #b0bec5;
+}
+
+.info a {
+    color: #82b1ff;
+    text-decoration: none;
+}
+
+.info a:hover {
+    text-decoration: underline;
 }
 
 #quejas-container {
